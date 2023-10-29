@@ -1,0 +1,9 @@
+section(class=`block-text ${content.first ? 'block-text__first' : ''}`) 
+    div(class=`block-text__inner ${content.left ? 'left': ''}`) 
+        .block-text__content
+            h3.block-text__content-title.title #{content.title}
+            .block-text__content-p
+                each text in content.text
+                    p.block-text__text=  text.p                      
+        img(src=`${content.img}`, alt="").block-text__content-img
+                        

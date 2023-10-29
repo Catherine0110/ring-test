@@ -1,0 +1,14 @@
+.slider
+  h2.title.center.slider__title #{sliderTitle}
+  .slider__wrap
+    .slider__main.swiper.js-slider(data-slider=`{"breakpoints":{"320":{"slidesPerView": 1,"spaceBetween": 0},"1024": {"slidesPerView": 3,"spaceBetween":10},"1280":{ "slidesPerView":  4,"spaceBetween": 20}}}`)
+      .slider__main-inner.swiper-wrapper
+        each val in contentSlider
+          .slider__main-item.swiper-slide
+            .slider__main-img
+              img(class=`slider__main-image` src=`${val.src}` alt="")
+            p.slider__main-text #{val.text}
+      .swiper-button-prev
+        +svg('arrow-prev','arrow-prev')
+      .swiper-button-next
+        +svg('arrow-next','arrow-next')
