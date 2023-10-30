@@ -1,3 +1,0 @@
-# start
-
-gulp start

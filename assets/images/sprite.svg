@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="arrow-next" viewBox="0 0 36 35"><g fill="none">
+<circle cx="18.4685" cy="17.5" r="17.5" fill="#F8F8F8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M15.8373 8L24.9685 17L15.8373 26L14.9685 25.142L23.2435 16.994L14.9748 8.846L15.8373 8Z" fill="black"/>
+</g></symbol><symbol id="arrow-prev" viewBox="0 0 35 35"><g fill="none">
+  <circle cx="17.5" cy="17.5" r="17.5" transform="rotate(-180 17.5 17.5)" fill="#F8F8F8"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1311 27L11.9999 18L21.1311 9L21.9999 9.858L13.7249 18.006L21.9936 26.154L21.1311 27Z" fill="black"/>
+</g></symbol></svg>
